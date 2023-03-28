@@ -12,7 +12,7 @@ export default createGlobalStyle`
 
   body {
     font-family: sans-serif;
-    background: ${colors.primaryDarkColor};
+    background: white;
     color: ${colors.primaryDarkColor}
 
   }
@@ -46,10 +46,10 @@ export default createGlobalStyle`
 `;
 
 export const Container = styled.section`
-  max-width: 360px;
+  max-width: 480px;
   background: #ffffff;
-  margin: 30px auto;
+  margin: 100px auto;
   padding: 30px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 `;
